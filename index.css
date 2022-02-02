@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+.game-container {
+  background-color: black;
+  width: 40vw;
+  height: 25rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 10rem auto;
+}
+
+.cell {
+  background-color: wheat;
+  border: 1px solid #f00;
+  margin: 0.2rem;
+  border-radius: 5px;
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+}
